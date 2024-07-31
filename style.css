@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    gap: 15px;
+    background-color: #1F2937;
+
+}
+
+.logo {
+    margin-left: 60px;
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
