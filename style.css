@@ -1,23 +1,49 @@
 body {
     display: flex;
     flex-direction: column;
+    margin:0px
+    
 }
 .header {
     display: flex;
     gap: 15px;
     background-color: #1F2937;
-
+    padding-top: 11px;
+    align-items: center;
 }
 
 .logo {
-    margin-left: 60px;
+    margin-left: 107px;
     margin-right: auto;
-    font-size: 24px;
+    font-size: 14px;
     color: #F9FAF8;
+    
 }
 
 .link {
-    font-size: 18px;
+    font-size: 10px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    background-color: #1F2937;
+    gap: 40px;
+    padding-top: 60px;
+}
+
+.webimage {
+    max-width: 270px;
+    min-width: 270px;
+    max-height: 120px;
+    min-height: 120px;
+    margin-right: 107px;
+}
+
+.bannertext {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 107px;
 }
